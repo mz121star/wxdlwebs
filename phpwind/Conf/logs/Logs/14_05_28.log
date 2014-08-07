@@ -1,0 +1,133 @@
+[ 2014-05-28T11:17:38+08:00 ] 119.100.7.71 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.003116s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000136s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023040s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001632s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027298s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052099s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2014-05-28T11:44:00+08:00 ] 119.100.7.71 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.002715s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000142s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022903s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001547s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027139s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051712s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052606s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053651s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003685s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2014-05-28T11:49:25+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003915s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001397s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: f_siteName F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\0ac5617eb2d3cba46a940e61fff06d9f.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017803s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018644s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019555s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2014-05-28T11:49:25+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=verify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-05-28T11:49:33+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.003354s ]
+SQL: SELECT * FROM `pigcms_user` WHERE ( `username` = 'admin' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000368s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020663s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000854s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009382s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031024s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031457s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031937s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032990s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2014-05-28T11:49:35+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=verify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2014-05-28T11:49:44+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=verify&rz=0.5973980384466768
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2014-05-28T11:49:51+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.002401s ]
+SQL: SELECT * FROM `pigcms_user` WHERE ( `username` = 'haoid' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017899s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009558s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028072s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028525s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029035s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2014-05-28T11:49:54+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=verify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+

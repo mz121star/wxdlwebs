@@ -1,0 +1,1915 @@
+[ 2014-05-27T17:58:09+08:00 ] 119.100.7.71 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.002354s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000250s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022293s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027241s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051174s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052266s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003993s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2014-05-27T17:58:14+08:00 ] 119.100.7.71 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002613s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `status` = 1 ) ORDER BY id ASC  [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.002119s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) ORDER BY gid DESC  [ RunTime:0.000358s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022737s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001146s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 31 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049767s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.073764s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.074472s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.075149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.075478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002397s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.076296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-05-27T17:59:38+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003210s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: f_siteName F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\0ac5617eb2d3cba46a940e61fff06d9f.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010251s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014550s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014996s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015522s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2014-05-27T17:59:38+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=verify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-05-27T17:59:49+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.002556s ]
+SQL: SELECT * FROM `pigcms_user` WHERE ( `username` = 'admin' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000309s ]
+NOTIC: [2] fopen(F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG/UTFWry.dat) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG\IpLocation.class.php 第 57 行.
+SQL: UPDATE `pigcms_user` SET `last_location`='',`last_login_time`='1401184789',`last_login_ip`='119.100.7.71' WHERE ( `id` = 8 ) [ RunTime:0.000324s ]
+
+[ 2014-05-27T17:59:49+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002451s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000289s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000242s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000267s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002541s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000428s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027197s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013997s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042278s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042750s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043242s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2014-05-27T17:59:50+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=menu
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002706s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000222s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000281s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000210s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002812s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 2 ) AND ( `level` = 2 ) ORDER BY `sort` asc  [ RunTime:0.000530s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026804s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039578s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040020s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040499s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2014-05-27T17:59:52+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002447s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000125s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000317s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000236s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.002220s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000232s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.029124s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001354s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant version - assumed 'version' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\70671f3fb4cc556d45e03bff5207b695.php 第 20 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018104s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048703s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049536s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050526s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003567s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2014-05-27T18:00:02+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=checkUpdate
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002551s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000132s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000219s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000210s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.002074s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: curl F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SystemAction.class.php 第 279 行.
+NOTIC: [2] curl_setopt(): supplied argument is not a valid cURL handle resource F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SystemAction.class.php 第 279 行.
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: curl F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SystemAction.class.php 第 279 行.
+NOTIC: [2] curl_setopt(): supplied argument is not a valid cURL handle resource F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SystemAction.class.php 第 279 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.221870s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.222902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.232769s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.233202s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.233680s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.234005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.234729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2014-05-27T18:00:04+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002478s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000138s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000247s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000223s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.002074s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000126s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024667s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant version - assumed 'version' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\70671f3fb4cc556d45e03bff5207b695.php 第 20 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009989s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035460s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035903s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036390s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001889s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2014-05-27T18:00:09+08:00 ] 119.100.7.71 /index.php?g=System&m=Site&a=index&pid=6&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [2048] Declaration of SiteAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SiteAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002535s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = 3 ) AND ( `pid` = 6 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002294s ]
+SQL: SELECT * FROM `pigcms_user_group` ORDER BY id ASC  [ RunTime:0.000219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023704s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: token F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 41 行.
+NOTIC: [8] Use of undefined constant checked - assumed 'checked' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 65 行.
+NOTIC: [8] Use of undefined constant checked - assumed 'checked' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018070s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042843s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043322s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043893s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-05-27T18:00:35+08:00 ] 119.100.7.71 /index.php?g=System&m=Site&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [2048] Declaration of SiteAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SiteAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002548s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000125s ]
+NOTIC: [2] unlink(./Conf/logs/~runtime.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SiteAction.class.php 第 50 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009556s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030767s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031187s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031662s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032754s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2014-05-27T18:00:36+08:00 ] 119.100.7.71 /index.php?g=System&m=Site&a=index&pid=6&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [2048] Declaration of SiteAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SiteAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002449s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = 3 ) AND ( `pid` = 6 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002373s ]
+SQL: SELECT * FROM `pigcms_user_group` ORDER BY id ASC  [ RunTime:0.000144s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: token F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 41 行.
+NOTIC: [8] Use of undefined constant checked - assumed 'checked' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 65 行.
+NOTIC: [8] Use of undefined constant checked - assumed 'checked' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017265s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040288s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041322s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001981s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2014-05-27T18:01:40+08:00 ] 119.100.7.71 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.003062s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000161s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023117s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020745s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045242s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045858s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046419s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002647s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047999s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-05-27T18:01:45+08:00 ] 119.100.7.71 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005298s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  invitecode F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 188 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017139s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023319s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023807s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024362s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002095s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-05-27T18:01:57+08:00 ] 119.100.7.71 /index.php?m=Users&a=checkreg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003566s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002506s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `invitecode` = '' ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `username` = 'haoid' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `email` = 'admin@haoid.cn' ) LIMIT 1   [ RunTime:0.000244s ]
+NOTIC: [2] md5() expects at least 1 parameter, 0 given F:\home\ftp\p\pigcms\wwwroot\Lib\Core\Model.class.php 第 876 行.
+SQL: INSERT INTO `pigcms_users` (`username`,`password`,`email`,`invitecode`,`inviter`,`createtime`,`createip`,`lasttime`,`lastip`,`status`) VALUES ('haoid','e10adc3949ba59abbe56e057f20f883e','admin@haoid.cn','ftadxq','0','1401184917','119.100.7.71','1401184917','119.100.7.71','1') [ RunTime:0.000307s ]
+NOTIC: [2048] Non-static method Sms::sendSms() should not be called statically, assuming $this from incompatible context F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\UsersAction.class.php 第 178 行.
+SQL: SHOW COLUMNS FROM `pigcms_company` [ RunTime:0.002569s ]
+SQL: SELECT * FROM `pigcms_company` WHERE ( `token` = 'admin' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002943s ]
+NOTIC: [2048] Non-static method Sms::_safe_replace() should not be called statically, assuming $this from incompatible context F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG\Sms.class.php 第 52 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'admin' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002717s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index:  smscount F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG\Sms.class.php 第 58 行.
+SQL: UPDATE `pigcms_users` SET `viptime`='1403776917',`status`='1',`gid`='4' WHERE ( `id` = 7 ) [ RunTime:0.000246s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042379s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012279s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055681s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056539s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057410s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2014-05-27T18:01:59+08:00 ] 119.100.7.71 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002623s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002814s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.003005s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002102s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002496s ]
+SQL: SELECT * FROM `pigcms_user_group`  [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 0,100   [ RunTime:0.000258s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040726s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 51 行.
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 113 行.
+NOTIC: [8] Undefined variable: demo F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 166 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 215 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.042148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024072s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066283s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.066759s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.069117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-05-27T18:02:03+08:00 ] 119.100.7.71 /index.php?g=User&m=Index&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002542s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002782s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002812s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002161s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031646s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001203s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\abcb2dc0cdf6cecdbc543733dfd2e7d4.php 第 51 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\abcb2dc0cdf6cecdbc543733dfd2e7d4.php 第 232 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021886s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054879s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055390s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055976s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057860s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-05-27T18:02:13+08:00 ] 119.100.7.71 /index.php?g=User&m=Index&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002582s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002804s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002911s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002052s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SELECT `wechat_card_num` FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `wechat_card_num` FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002891s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000263s ]
+NOTIC: [8] Undefined offset:  3 F:\home\ftp\p\pigcms\wwwroot\Lib\Core\Model.class.php 第 868 行.
+NOTIC: [8] Undefined offset:  3 F:\home\ftp\p\pigcms\wwwroot\Lib\Core\Model.class.php 第 868 行.
+NOTIC: [8] Undefined offset:  3 F:\home\ftp\p\pigcms\wwwroot\Lib\Core\Model.class.php 第 868 行.
+NOTIC: [8] Undefined offset:  3 F:\home\ftp\p\pigcms\wwwroot\Lib\Core\Model.class.php 第 868 行.
+NOTIC: [8] Undefined offset:  3 F:\home\ftp\p\pigcms\wwwroot\Lib\Core\Model.class.php 第 868 行.
+NOTIC: [8] Undefined offset:  3 F:\home\ftp\p\pigcms\wwwroot\Lib\Core\Model.class.php 第 868 行.
+SQL: INSERT INTO `pigcms_wxuser` (`wxname`,`wxid`,`weixin`,`appid`,`appsecret`,`winxintype`,`headerpic`,`token`,`province`,`city`,`qq`,`wxfans`,`uid`,`tpltypeid`,`tpllistid`,`tplcontentid`,`tpltypename`,`tpllistname`,`tplcontentname`,`createtime`,`updatetime`,`typeid`,`typename`) VALUES ('好站长资源','haoid','haoid','','','1','./tpl/User/default/common/images/portrait.jpg','wsngow1401184923','p','c','1401184923@yourdomain.com','0','7','1','1','1','ty_index','yl_list','ktv_content','1401184933','1401184933','8','服务') [ RunTime:0.000425s ]
+SQL: UPDATE `pigcms_users` SET `wechat_card_num`=wechat_card_num+1 WHERE ( `id` = 7 ) [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.002300s ]
+SQL: SELECT `funname`,`gid`,`isserve` FROM `pigcms_function` WHERE `gid` <= 4  [ RunTime:0.000264s ]
+NOTIC: [8] Undefined variable: queryname F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 174 行.
+SQL: INSERT INTO `pigcms_token_open` (`uid`,`token`,`queryname`) VALUES ('7','wsngow1401184923','tianqi,qiushi,jishuan,langdu,jiankang,kuaidi,xiaohua,changtoushi,peiliao,liaotian,mengjian,yuyinfanyi,huoche,gongjiao,shenfenzheng,shouji,yinle,fujin,lottery,taobao,userinfo,fanyi,api,suanming,baike,caipiao,choujiang,shouye,adma,huiyuanka,host_kev,geci,,diyform,dx,shop,etuan,diymen_set,gua2,panorama,wedding,vote,estate,album,GoldenEgg,LuckyFruit,message,car,,,wall,shake,forum,medical,message,share,hotel,school') [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `pigcms_diymen_set` [ RunTime:0.002068s ]
+SQL: INSERT INTO `pigcms_diymen_set` (`appid`,`token`,`appsecret`) VALUES ('','wsngow1401184923','') [ RunTime:0.000204s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.049485s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010738s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.060840s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061274s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.061742s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002648s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.063581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2014-05-27T18:02:14+08:00 ] 119.100.7.71 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002641s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002839s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002971s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002133s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002533s ]
+SQL: SELECT * FROM `pigcms_user_group`  [ RunTime:0.000135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 0,100   [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: apiinfo F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `pigcms_diymen_set` [ RunTime:0.002233s ]
+SQL: SELECT * FROM `pigcms_diymen_set` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000271s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044278s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001204s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 51 行.
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 113 行.
+NOTIC: [8] Undefined variable: demo F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 166 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 215 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.045543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025094s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.070700s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.071201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071712s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003069s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-05-27T18:02:15+08:00 ] 119.100.7.71 /index.php?g=User&m=Alipay&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002721s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003134s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002999s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002120s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`price` FROM `pigcms_user_group` WHERE price>0  [ RunTime:0.000275s ]
+SQL: SELECT `price` FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000235s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034118s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\3a74c416b40e6d9fcd9c9fdc16f8a916.php 第 52 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\3a74c416b40e6d9fcd9c9fdc16f8a916.php 第 210 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017951s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053380s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053834s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054317s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002650s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2014-05-27T18:02:17+08:00 ] 119.100.7.71 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002625s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003274s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002872s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002190s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002476s ]
+SQL: SELECT * FROM `pigcms_user_group`  [ RunTime:0.000124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 0,100   [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: apiinfo F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `pigcms_diymen_set` [ RunTime:0.002249s ]
+SQL: SELECT * FROM `pigcms_diymen_set` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000130s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042885s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 51 行.
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 113 行.
+NOTIC: [8] Undefined variable: demo F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 166 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 215 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024290s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.068610s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069102s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069603s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002730s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2014-05-27T18:02:21+08:00 ] 119.100.7.71 /index.php?g=Home&m=Index&a=help&id=5&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004424s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\7bd452533dfdb57f7764926335aee7e7.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028382s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034273s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034755s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035253s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2014-05-27T18:02:28+08:00 ] 119.100.7.71 /index.php?g=User&m=Function&a=index&id=5&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002593s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002635s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.003193s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002164s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002241s ]
+SQL: SELECT `id`,`queryname` FROM `pigcms_token_open` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT `id`,`name` FROM `pigcms_user_group` WHERE status=1  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.002239s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 1 )  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 2 )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 3 )  [ RunTime:0.000251s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 4 )  [ RunTime:0.000487s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 5 )  [ RunTime:0.000231s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000202s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001294s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 51 行.
+NOTIC: [8] Undefined index:  exceptCondition F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 354 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043657s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.087312s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.088009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.088652s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.089574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003142s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.090575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2014-05-27T18:02:47+08:00 ] 119.100.7.71 /index.php?g=User&m=Tmpls&a=index&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of TmplsAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\TmplsAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002548s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002784s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.003322s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002104s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002836s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000328s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052790s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001176s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 51 行.
+NOTIC: [8] Undefined index:  exceptCondition F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 201 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\13ca5dca99929cb1ca2dbe28fcc6d5e6.php 第 515 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.054025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.100111s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.100915s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.101589s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003355s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2014-05-27T18:02:52+08:00 ] 119.100.7.71 /index.php?g=Wap&m=Index&token=wsngow1401184923&show=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `pigcms_userinfo` [ RunTime:0.003159s ]
+SQL: SELECT * FROM `pigcms_userinfo` WHERE ( `token` = 'wsngow1401184923' ) AND ( `wecha_id` = null ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `pigcms_wechat_group_list` [ RunTime:0.002408s ]
+SQL: SELECT * FROM `pigcms_wechat_group_list` WHERE ( `token` = 'wsngow1401184923' ) AND ( `openid` = null ) LIMIT 1   [ RunTime:0.000231s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/9/7/97e97e22df83e67491ccf582063befe6.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `pigcms_home` [ RunTime:0.002480s ]
+SQL: SELECT * FROM `pigcms_home` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/3/8/3830cf1767910ac177347e7f426f6a4d.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002837s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `pigcms_catemenu` [ RunTime:0.002360s ]
+SQL: SELECT * FROM `pigcms_catemenu` WHERE ( `token` = 'wsngow1401184923' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000232s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/6/b/6bcea0c3b2f3748a00141452852629a6.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002770s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002308s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `pigcms_company` [ RunTime:0.002522s ]
+SQL: SELECT * FROM `pigcms_company` WHERE ( `token` = 'wsngow1401184923' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000253s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/e/e/ee520f473c9116b318b47ecb0b6740b9.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `pigcms_classify` [ RunTime:0.002422s ]
+SQL: SELECT * FROM `pigcms_classify` WHERE ( `token` = 'wsngow1401184923' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000241s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Wap\IndexAction.class.php 第 492 行.
+SQL: SHOW COLUMNS FROM `pigcms_flash` [ RunTime:0.002431s ]
+SQL: SELECT * FROM `pigcms_flash` WHERE ( `token` = 'wsngow1401184923' )  [ RunTime:0.000235s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Wap\IndexAction.class.php 第 492 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Wap\IndexAction.class.php 第 81 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.079610s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Wap\ded10be70be951d8e123a9ce090a7498.php 第 162 行.
+NOTIC: [2] Division by zero F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Wap\ded10be70be951d8e123a9ce090a7498.php 第 162 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Wap\ded10be70be951d8e123a9ce090a7498.php 第 163 行.
+NOTIC: [2] Division by zero F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Wap\ded10be70be951d8e123a9ce090a7498.php 第 163 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Wap\ded10be70be951d8e123a9ce090a7498.php 第 164 行.
+NOTIC: [2] Division by zero F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Wap\ded10be70be951d8e123a9ce090a7498.php 第 164 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.081246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.101563s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.102435s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.103304s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.104085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.105247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2014-05-27T18:03:17+08:00 ] 119.100.7.71 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.002390s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000121s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019833s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042135s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042640s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043148s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002087s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2014-05-27T18:16:27+08:00 ] 119.100.7.71 /index.php?g=System&m=Site&a=index&pid=6&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [2048] Declaration of SiteAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\System\SiteAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002992s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = 3 ) AND ( `pid` = 6 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002814s ]
+SQL: SELECT * FROM `pigcms_user_group` ORDER BY id ASC  [ RunTime:0.000138s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028770s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001362s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: token F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 41 行.
+NOTIC: [8] Use of undefined constant checked - assumed 'checked' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 65 行.
+NOTIC: [8] Use of undefined constant checked - assumed 'checked' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\290787b61e1d188e50b8f6a79194f6f3.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025869s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056129s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057015s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.058087s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003689s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2014-05-27T18:16:30+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002469s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000136s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000673s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000677s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002247s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000129s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026622s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012469s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040188s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-05-27T18:16:30+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=menu
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002413s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000150s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000234s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000197s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002271s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 2 ) AND ( `level` = 2 ) ORDER BY `sort` asc  [ RunTime:0.000142s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025327s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010469s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036889s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037327s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037805s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2014-05-27T18:16:33+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002461s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000141s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000259s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000234s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.002091s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000126s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.029329s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant version - assumed 'version' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\70671f3fb4cc556d45e03bff5207b695.php 第 20 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048837s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049672s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050658s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003582s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2014-05-27T18:28:16+08:00 ] 101.226.89.120 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002587s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `status` = 1 ) ORDER BY id ASC  [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  copyright F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\Home\IndexAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.002660s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) ORDER BY gid DESC  [ RunTime:0.000182s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026484s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 31 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+NOTIC: [8] Use of undefined constant g - assumed 'g' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\26c3c1c9e0bfd747004fee7dc9a32882.php 第 127 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.068484s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069590s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.070769s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.071480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004072s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.072676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2014-05-27T18:32:04+08:00 ] 101.226.33.237 /index.php?g=User&m=Index&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002534s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003381s ]
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 11 行.
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.003304s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002506s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000114s ]
+
+[ 2014-05-27T18:32:04+08:00 ] 101.226.33.237 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  invitecode F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 188 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026050s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026938s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027884s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003594s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029744s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2014-05-27T18:32:15+08:00 ] 180.153.163.207 /index.php?g=User&m=Alipay&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002576s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003046s ]
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 11 行.
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002884s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002084s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000117s ]
+
+[ 2014-05-27T18:32:16+08:00 ] 180.153.163.207 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004712s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  invitecode F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 188 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016585s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021958s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022444s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022992s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2014-05-27T18:32:22+08:00 ] 101.226.65.107 /index.php?g=Home&m=Index&a=help&id=5&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004870s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001146s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\7bd452533dfdb57f7764926335aee7e7.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\7bd452533dfdb57f7764926335aee7e7.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018757s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024923s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025415s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025917s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001941s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2014-05-27T18:32:28+08:00 ] 180.153.214.199 /index.php?g=User&m=Function&a=index&id=5&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.014638s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002661s ]
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 11 行.
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002778s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002116s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000184s ]
+
+[ 2014-05-27T18:32:29+08:00 ] 180.153.214.199 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004806s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  invitecode F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 188 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016613s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022074s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022558s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2014-05-27T18:34:12+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003732s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: f_siteName F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\0ac5617eb2d3cba46a940e61fff06d9f.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011855s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017066s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017925s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018915s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003700s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2014-05-27T18:34:13+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=verify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+
+[ 2014-05-27T18:34:23+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.002946s ]
+SQL: SELECT * FROM `pigcms_user` WHERE ( `username` = 'admin' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000375s ]
+NOTIC: [2] fopen(F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG/UTFWry.dat) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG\IpLocation.class.php 第 57 行.
+SQL: UPDATE `pigcms_user` SET `last_location`='',`last_login_time`='1401186863',`last_login_ip`='119.100.7.71' WHERE ( `id` = 8 ) [ RunTime:0.000290s ]
+
+[ 2014-05-27T18:34:23+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002597s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000151s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000250s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000218s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002498s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000137s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028354s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001171s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.029587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013258s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042906s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043346s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043828s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044871s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2014-05-27T18:34:23+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=menu
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002502s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000117s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000201s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000173s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002348s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 2 ) AND ( `level` = 2 ) ORDER BY `sort` asc  [ RunTime:0.000128s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027300s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001162s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011894s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040481s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040921s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041400s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001873s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-05-27T18:34:26+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002401s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000137s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000248s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000218s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000123s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.029017s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001352s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant version - assumed 'version' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\70671f3fb4cc556d45e03bff5207b695.php 第 20 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018422s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048919s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049778s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050770s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003599s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2014-05-27T18:35:40+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=logout
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003827s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009491s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014279s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014717s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015194s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2014-05-27T18:35:44+08:00 ] 119.100.7.71 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.011163s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028400s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.029580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019686s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049330s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049816s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050322s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.050647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.051376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-05-27T18:35:57+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002945s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: f_siteName F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\0ac5617eb2d3cba46a940e61fff06d9f.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014003s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014453s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014974s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001919s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2014-05-27T18:35:57+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=verify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-05-27T18:36:08+08:00 ] 119.100.7.71 /index.php?g=System&m=Admin&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.002446s ]
+SQL: SELECT * FROM `pigcms_user` WHERE ( `username` = 'admin' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000247s ]
+NOTIC: [2] fopen(F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG/UTFWry.dat) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\ORG\IpLocation.class.php 第 57 行.
+SQL: UPDATE `pigcms_user` SET `last_location`='',`last_login_time`='1401186968',`last_login_ip`='119.100.7.71' WHERE ( `id` = 8 ) [ RunTime:0.000280s ]
+
+[ 2014-05-27T18:36:08+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002357s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000119s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000201s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000180s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002153s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000121s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024861s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001155s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013220s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039363s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039804s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041312s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2014-05-27T18:36:08+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002429s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000117s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000204s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000174s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.001925s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000111s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024194s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant version - assumed 'version' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\70671f3fb4cc556d45e03bff5207b695.php 第 20 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010270s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035110s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035549s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036029s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001878s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037082s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2014-05-27T18:36:09+08:00 ] 119.100.7.71 /index.php?g=System&m=System&a=menu
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002364s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000118s ]
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_system_info` (`lastsqlupdate` INT( 10 ) NOT NULL ,`version` VARCHAR( 10 ) NOT NULL) ENGINE = MYISAM CHARACTER SET utf8 [ RunTime:0.000205s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: CREATE TABLE IF NOT EXISTS `pigcms_update_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `msg` varchar(600) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `time` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM DEFAULT CHARSET=utf8 [ RunTime:0.000175s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 110 行.
+NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource F:\home\ftp\p\pigcms\wwwroot\Lib\Driver\Db\DbMysql.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_node` [ RunTime:0.002172s ]
+SQL: SELECT * FROM `pigcms_node` WHERE ( `display` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 2 ) AND ( `level` = 2 ) ORDER BY `sort` asc  [ RunTime:0.000115s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024628s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001154s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010752s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036657s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037069s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037524s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2014-05-27T18:50:22+08:00 ] 119.100.7.71 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.041346s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.001032s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.199626s ]
+INFO: [ view_template ] --END-- [ RunTime:0.068834s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.268543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074849s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.343460s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.344651s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.346229s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.347230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005072s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.348631s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2014-05-27T18:50:29+08:00 ] 119.100.7.71 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.030190s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.006757s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.004618s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.012448s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.018419s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000351s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002661s ]
+SQL: SELECT * FROM `pigcms_user_group`  [ RunTime:0.000280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `uid` = 7 ) LIMIT 0,100   [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: apiinfo F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\User\IndexAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `pigcms_diymen_set` [ RunTime:0.027008s ]
+SQL: SELECT * FROM `pigcms_diymen_set` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000256s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.240358s ]
+INFO: [ view_template ] --END-- [ RunTime:0.031690s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 51 行.
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 113 行.
+NOTIC: [8] Undefined variable: demo F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 166 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 215 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.272110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093237s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.365410s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.365908s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.366423s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.366738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.367486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2014-05-27T18:50:39+08:00 ] 119.100.7.71 /index.php?g=User&m=Function&a=index&id=5&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002617s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002859s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.002960s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002141s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SELECT * FROM `pigcms_wxuser` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002159s ]
+SQL: SELECT `id`,`queryname` FROM `pigcms_token_open` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT `id`,`name` FROM `pigcms_user_group` WHERE status=1  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `pigcms_function` [ RunTime:0.025864s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 1 )  [ RunTime:0.001828s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 2 )  [ RunTime:0.000353s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 3 )  [ RunTime:0.000342s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 4 )  [ RunTime:0.000667s ]
+SQL: SELECT * FROM `pigcms_function` WHERE ( `status` = 1 ) AND ( `gid` = 5 )  [ RunTime:0.000241s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000214s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.091019s ]
+INFO: [ view_template ] --END-- [ RunTime:0.028463s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 51 行.
+NOTIC: [8] Undefined index:  exceptCondition F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 201 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\52858e5695fc543ba4c03ea48eacfeda.php 第 354 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.119573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067769s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.187408s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.188060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.188673s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.188997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002264s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.189787s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-05-27T18:50:48+08:00 ] 119.100.7.71 /index.php?g=User&m=Alipay_config&a=index&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.002663s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.002821s ]
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.003102s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = 'wsngow1401184923' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002256s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index:  width F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pigcms_alipay_config` [ RunTime:0.037916s ]
+SQL: SELECT * FROM `pigcms_alipay_config` WHERE ( `token` = 'wsngow1401184923' ) LIMIT 1   [ RunTime:0.000309s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.090390s ]
+INFO: [ view_template ] --END-- [ RunTime:0.029192s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 51 行.
+NOTIC: [8] Undefined index:  exceptCondition F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined index:  test F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 201 行.
+NOTIC: [8] Undefined variable: alert F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\User\c80b7442cc981a6a9da7e21c2cd1d691.php 第 331 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.119649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054874s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.174588s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.175154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.175797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.176123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.176881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2014-05-27T19:05:01+08:00 ] 180.153.163.191 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `pigcms_links` [ RunTime:0.002562s ]
+SQL: SELECT * FROM `pigcms_links` WHERE ( `status` = 1 )  [ RunTime:0.000135s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022938s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027549s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052267s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053180s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054224s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003743s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056108s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2014-05-27T19:05:15+08:00 ] 180.153.206.35 /index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027407s ]
+INFO: [ view_template ] --END-- [ RunTime:0.036543s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: f_siteName F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\System\0ac5617eb2d3cba46a940e61fff06d9f.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.064010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033768s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097841s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098296s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.098849s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.099175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099917s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2014-05-27T19:20:48+08:00 ] 101.226.33.228 /index.php?g=User&m=Alipay_config&a=index&token=wsngow1401184923
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `pigcms_user_group` [ RunTime:0.003035s ]
+SQL: SELECT * FROM `pigcms_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `pigcms_users` [ RunTime:0.003130s ]
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\PigCms\Lib\Action\UserAction.class.php 第 11 行.
+SQL: SELECT * FROM `pigcms_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `pigcms_wxuser` [ RunTime:0.003321s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `pigcms_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `pigcms_token_open` [ RunTime:0.002529s ]
+SQL: SELECT `queryname` FROM `pigcms_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000200s ]
+
+[ 2014-05-27T19:20:48+08:00 ] 101.226.33.228 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005773s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  uid F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index:  invitecode F:\home\ftp\p\pigcms\wwwroot\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 188 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042895s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049737s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050634s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051712s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003741s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001175s ]
+
